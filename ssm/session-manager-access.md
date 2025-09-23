@@ -1,7 +1,7 @@
 ## Session Manager
 
 * ### Can we restrict Session Manager to specific EC2?
-Yes, we can by creating custom policy & adding the condition
+      Yes, we can by creating custom policy & adding the condition
 
 ```json
 {
