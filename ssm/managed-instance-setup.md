@@ -2,11 +2,14 @@
 Note:
 - The below commands will allow us to add external servers to our SSM
 
+Install SSM agent manually (Optional is agent is already installed)
 ```bash
 #!/bin/bash
 # if you need to install the SSM Agent manually:
 sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
 ```
+
+Setup SSM in the Server
 ```bash
 # check status ubuntu
 sudo systemctl status snap.amazon-ssm-agent.amazon-ssm-agent.service
