@@ -1,7 +1,7 @@
 ## Lambda code for API Gateway integration
 
 Code for root path
-```json
+```py
 import json
 
 def lambda_handler(event, context):
@@ -17,7 +17,7 @@ def lambda_handler(event, context):
 ```
 
 Code for cart path (you can use anything else)
-```json
+```py
 import json
 
 def lambda_handler(event, context):
