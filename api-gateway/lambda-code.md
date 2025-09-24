@@ -5,6 +5,7 @@
 import json
 
 def lambda_handler(event, context):
+    # print (event) --> This will show you the events in Lambda -->CloudWatch logs
     body = "Hello from Lambda! This is my root path"
     statusCode = 200
     return {
