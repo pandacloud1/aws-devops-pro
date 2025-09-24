@@ -1,6 +1,6 @@
 ## Lambda code for API Gateway integration
 
-Code for root path
+Code for root path (Python 3.11)
 ```py
 import json
 
