@@ -1,6 +1,6 @@
 ## Lambda code for API Gateway integration
 
-Code for root path (Python 3.11)
+### Code for root path (Python 3.11)
 ```py
 import json
 
@@ -16,7 +16,7 @@ def lambda_handler(event, context):
     }
 ```
 
-Code for cart path (you can use anything else)
+### Code for cart path (you can use anything else)
 ```py
 import json
 
