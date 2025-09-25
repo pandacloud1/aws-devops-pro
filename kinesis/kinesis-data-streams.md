@@ -13,16 +13,16 @@ aws kinesis put-record --stream-name test --partition-key user1 --data "user sig
 ```
 ```sh
 # CLI v1
-aws kinesis put-record --stream-name <Your-Stream-Name> --partition-key user1 --data "user signup"
+aws kinesis put-record --stream-name <Stream-Name> --partition-key user1 --data "user signup"
 ```
 
 CONSUMER 
 ```sh
 # describe the stream
-aws kinesis describe-stream --stream-name test
+aws kinesis describe-stream --stream-name <Stream-Name>
 
 # Consume some data
-aws kinesis get-shard-iterator --stream-name test --shard-id shardId-000000000000 --shard-iterator-type TRIM_HORIZON
+aws kinesis get-shard-iterator --stream-name <Stream-Name> --shard-id shardId-000000000000 --shard-iterator-type TRIM_HORIZON
 
 aws kinesis get-records --shard-iterator <>
 ```
