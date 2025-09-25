@@ -13,7 +13,7 @@ aws kinesis put-record --stream-name test --partition-key user1 --data "user sig
 ```
 ```sh
 # CLI v1
-aws kinesis put-record --stream-name test --partition-key user1 --data "user signup"
+aws kinesis put-record --stream-name <Your-Stream-Name> --partition-key user1 --data "user signup"
 ```
 
 CONSUMER 
