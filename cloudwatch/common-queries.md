@@ -1,4 +1,5 @@
-## Commonly used CloudWatch Log Insights Queries
+## CloudWatch Log Insights
+### Commonly used queries
 
 25 most recently added log events
 ```
