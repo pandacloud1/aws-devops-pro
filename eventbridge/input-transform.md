@@ -10,13 +10,10 @@ Define variables to Input Path
 }
 ```
 
-Leverage the variables in a template
+Template
 ```
 {
-  "instance" : <instance>,
-  "state" : <state>,
-"ruleArn" : <aws.events.rule-arn>,
-"ruleName" : <aws.events.rule-name>,
-"originalEvent" : <aws.events.event.json>
+  "timestamp": <timestamp>,
+  "message": "<instance> is in state <state> at <timestamp>, with arn <resource>."
 }
 ```
